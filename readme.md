@@ -37,5 +37,8 @@ Essa instalação do Redash está baseada na imagem: **redash/redash:10.1.0.b506
 
 No arquivo .env você encontra as configurações do Redash, inclusive a configuração do servidor de email para o envio dos alertas. (https://redash.io/help/open-source/admin-guide/env-vars-settings)
  
- 
+## Customizando os templates
+
+Na pasta templates estão os modelos utilizados pelo Redash para o envio de alertas e emails relacionados à conta do Usuário. Você poderá alterar os templates conforme a sua necessidade.
+
 
