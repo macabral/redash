@@ -17,6 +17,8 @@ services:
     environment:
       REDASH_WEB_WORKERS: 4
     restart: always
+    volumes: 
+      - /home/macabral/dev/redash/templates:/app/redash/templates
   scheduler:
     <<: *redash-service
     command: scheduler
