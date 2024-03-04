@@ -9,8 +9,9 @@ Redash (https://redash.io/) é uma ferramenta para criação de painéis de info
 A maneira mais fácil e rápida para executar o Redash é utilizando o docker-compose. Para isso você deve ter o git, Docker e Docker Compose instalado em seu ambiente. 
 
  1. Clone o repositório: git clone https://github.com/macabral/redash
- 2. Vá para a pasta redash e execute docker-compose up -d
- 3. No navegador acesse: http://localhost:5000
+ 2. Renomeie o arquivo .env.exemplo para .env
+ 3. Vá para a pasta redash e execute docker-compose up -d
+ 4. No navegador acesse: http://localhost:5000
 
 ## Versão
 Essa instalação do Redash está baseada na imagem: **redash/redash:10.1.0.b50633**

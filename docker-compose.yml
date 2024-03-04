@@ -24,6 +24,7 @@ services:
       QUEUES: "celery"
       WORKERS_COUNT: 1
     restart: always
+    env_file: .env
   scheduled_worker:
     <<: *redash-service
     command: worker
@@ -31,6 +32,7 @@ services:
       QUEUES: "scheduled_queries,schemas"
       WORKERS_COUNT: 1
     restart: always
+    env_file: .env
   adhoc_worker:
     <<: *redash-service
     command: worker
@@ -38,6 +40,7 @@ services:
       QUEUES: "emails,queries,default,periodic"
       WORKERS_COUNT: 2
     restart: always
+    env_file: .env
   redis:
     image: redis #:5.0-alpine
     restart: always
