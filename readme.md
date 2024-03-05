@@ -48,5 +48,11 @@ Se o Redash não estiver disponível depois do reboot execute o comando: sudo sy
 
  ## Vídeos
 
- Introduction to Query Parameters - www.youtube.com/watch?v=02iQXd2Ouos
+ Getting Started With Redash - https://www.youtube.com/watch?v=Yn3_QDk2qQM
  
+ How-to: Making Visualizations & Dashboards in Redash - https://www.youtube.com/watch?v=hp9rhiSHMZ0
+ 
+ Introduction to Query Parameters - www.youtube.com/watch?v=02iQXd2Ouos
+
+SPARK+AI Summit 2020 (Databricks) - https://www.youtube.com/watch?v=U32yv9e9HOI
+
